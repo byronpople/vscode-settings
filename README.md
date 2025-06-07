@@ -4,6 +4,11 @@
 This repo documents my personal Visual Studio Code setup for **React development**.  
 It includes my settings, extensions, and recommendations for a solid front-end workflow.
 
+___
+
+## Font
+
+Geist truly represents the coding and design spirit within Vercel's creative community.
 ---
 
 ## 🎨 Settings
@@ -109,20 +114,26 @@ It includes my settings, extensions, and recommendations for a solid front-end w
 
 ## 🔌 Extensions
 
+### Terminal instalation
+
+```bash
+ cat vs-extensions.txt | xargs -L1 code --install-extension
+ ```
+
 ### Current Installed Extensions
 
 ```bash
-code --install-extension adpyke.codesnap
-code --install-extension bradlc.vscode-tailwindcss
-code --install-extension christian-kohler.npm-intellisense
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension dotjoshjohnson.xml
-code --install-extension dsznajder.es7-react-js-snippets
-code --install-extension esbenp.prettier-vscode
-code --install-extension monokai.theme-monokai-pro-vscode
-code --install-extension rangav.vscode-thunder-client
-code --install-extension streetsidesoftware.code-spell-checker
-code --install-extension yoavbls.pretty-ts-errors
+adpyke.codesnap
+bradlc.vscode-tailwindcss
+christian-kohler.npm-intellisense
+dbaeumer.vscode-eslint
+dotjoshjohnson.xml
+dsznajder.es7-react-js-snippets
+esbenp.prettier-vscode
+monokai.theme-monokai-pro-vscode
+rangav.vscode-thunder-client
+streetsidesoftware.code-spell-checker
+yoavbls.pretty-ts-errors
 ```
 
 ---
@@ -131,18 +142,18 @@ code --install-extension yoavbls.pretty-ts-errors
 
 ```bash
 # React / JS / TS
-code --install-extension ms-vscode.vscode-typescript-next
-code --install-extension OfHumanBondage.react-proptypes-intellisense
-code --install-extension patrys.vscode-code-outline
-code --install-extension christian-kohler.path-intellisense
-code --install-extension wix.vscode-import-cost
+ms-vscode.vscode-typescript-next
+OfHumanBondage.react-proptypes-intellisense
+patrys.vscode-code-outline
+christian-kohler.path-intellisense
+wix.vscode-import-cost
 
 # Git
-code --install-extension eamodio.gitlens
+eamodio.gitlens
 
 # Productivity
-code --install-extension formulahendry.auto-rename-tag
-code --install-extension formulahendry.auto-close-tag
+formulahendry.auto-rename-tag
+formulahendry.auto-close-tag
 ```
 
 ---

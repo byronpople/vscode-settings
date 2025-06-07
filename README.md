@@ -15,10 +15,12 @@ Geist truly represents the coding and design spirit within Vercel's creative com
 
 ```json
 {
-  "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
-  "workbench.iconTheme": "Monokai Pro (Filter Ristretto) Icons",
+  "workbench.colorTheme": "Monokai Pro",
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "editor.fontFamily": "Geist Mono Light",
+  "terminal.integrated.fontFamily": "Geist Mono Light",
   "editor.fontSize": 13,
-  "editor.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontSize": 13,
   "editor.fontLigatures": true,
   "editor.lineHeight": 20,
   "editor.tabSize": 2,
@@ -67,7 +69,6 @@ Geist truly represents the coding and design spirit within Vercel's creative com
     "**/node_modules": true
   },
   "search.useIgnoreFiles": false,
-  "terminal.integrated.fontSize": 13,
   "window.zoomLevel": 1.25,
   "workbench.editor.labelFormat": "medium",
   "workbench.editor.showTabs": "none",
@@ -116,11 +117,17 @@ Geist truly represents the coding and design spirit within Vercel's creative com
 
 ### Terminal instalation
 
+Create a file with the Base Extensions then add Additional Extensions if needed
+
+```bash
+nano vs-extensions.txt
+```
+
 ```bash
  cat vs-extensions.txt | xargs -L1 code --install-extension
  ```
 
-### Current Installed Extensions
+### Base Extensions
 
 ```bash
 adpyke.codesnap
